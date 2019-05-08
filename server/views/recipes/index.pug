@@ -1,0 +1,21 @@
+extends ../layout/index
+block content
+  #recipeList.container
+    .row
+      .col-sm-8
+        article.recipeslist
+          .container
+            .row
+              each recipe in recipeslist
+                .col-sm-8
+                  h3.recipeslist-title=recipe.title
+                  h5.recipeslist-name
+                    | with &nbsp;
+                    a(href=`/recipes/${recipe.shortname}`)=recipe.name
+                  p.recipeslist-info
+                    a(href=`/recipes/${recipe.shortname}`)
+                      img.recipeslist-img.img-circle.pull-left(src=`/images/recipes/${recipe.shortname}_tn.jpg`, alt=`Photo of ${recipe.name}`)
+                    | #{recipe.summary}  
+      aside.col-sm-4
+        article.sidebar
+          include ../includes/artwork

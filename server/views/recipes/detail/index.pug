@@ -1,0 +1,20 @@
+extends ../../layout/index
+block content
+  #recipeDetail.container
+    .row
+      .col-sm-8
+        article.recipeslist
+          .container
+            .row
+              .col-sm-8
+                h3.recipeslist-title=recipe.title
+                p.recipeslist-info
+                  !=recipe.ingredients
+                  !=recipe.description
+            // row
+          // container
+      // primary
+      aside.col-sm-4
+        article.sidebar
+          //include ../../includes/artwork
+          img.recipeslist-img.img-responsive.pull-left(src=`/images/recipes/${recipe.shortname}.jpg`, alt=`Photo of ${recipe.title}`)

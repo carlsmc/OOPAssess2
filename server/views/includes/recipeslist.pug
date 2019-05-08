@@ -1,0 +1,10 @@
+article.recipeslist.jumbotron.hidden-xs
+  .container
+    .row
+      each recipe in recipeslist
+        .col-sm-3.text-center
+          h3.recipeslist-title
+            a(href=`/recipes/${recipe.shortname}`)=recipe.title
+          h3.recipeslist-info
+            a(href=`/recipes/${recipe.shortname}`)
+              img.recipeslist-img.img-thumbnail(src=`/images/recipes/${recipe.shortname}.jpg`, alt=`Photo of ${recipe.title}`)

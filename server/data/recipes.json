@@ -1,0 +1,40 @@
+{
+  "recipes": [
+    {
+      "title": "Homemade Burger",
+      "shortname": "burger",
+      "ingredients": "<p>Lorem ipsum dolor sit amet</br>consectetur adipiscing elit</br>Nam id urna fringilla</br>blandit dolor nec, auctor velit</p>",
+      "description": "<p>Aliquam erat volutpat. Ut porta cursus scelerisque. Integer aliquet mi sit amet scelerisque dictum.</p><p> Nulla et fringilla magna, in finibus neque. Pellentesque porta felis a lacus pellentesque, eu faucibus diam egestas.</p> <p>Donec a erat commodo, lobortis justo eu, pellentesque ipsum. Fusce facilisis sem mi, consectetur hendrerit lorem accumsan vitae.</p>",
+      "artwork": [
+        "burger.jpg"
+      ]
+    },
+    {
+      "title": "Pumpkin Soup",
+      "shortname": "soup",
+      "ingredients": "<p>Lorem ipsum dolor sit amet</br>consectetur adipiscing elit</br>Nam id urna fringilla</br>blandit dolor nec, auctor velit</p>",
+      "description": "<p>Aliquam erat volutpat. Ut porta cursus scelerisque. Integer aliquet mi sit amet scelerisque dictum.</p><p> Nulla et fringilla magna, in finibus neque. Pellentesque porta felis a lacus pellentesque, eu faucibus diam egestas.</p> <p>Donec a erat commodo, lobortis justo eu, pellentesque ipsum. Fusce facilisis sem mi, consectetur hendrerit lorem accumsan vitae.</p>",
+      "artwork": [
+        "soup.jpg"
+      ]
+    },
+    {
+      "title": "Berry Smoothie",
+      "shortname": "smoothie",
+      "ingredients": "<p>Lorem ipsum dolor sit amet</br>consectetur adipiscing elit</br>Nam id urna fringilla</br>blandit dolor nec, auctor velit</p>",
+      "description": "<p>Aliquam erat volutpat. Ut porta cursus scelerisque. Integer aliquet mi sit amet scelerisque dictum.</p><p> Nulla et fringilla magna, in finibus neque. Pellentesque porta felis a lacus pellentesque, eu faucibus diam egestas.</p> <p>Donec a erat commodo, lobortis justo eu, pellentesque ipsum. Fusce facilisis sem mi, consectetur hendrerit lorem accumsan vitae.</p>",
+      "artwork": [
+        "smoothie.jpg"
+      ]
+    },
+    {
+      "title": "Steel Cut Oats",
+      "shortname": "oats",
+      "ingredients": "<p>Lorem ipsum dolor sit amet</br>consectetur adipiscing elit</br>Nam id urna fringilla</br>blandit dolor nec, auctor velit</p>",
+      "description": "<p>Aliquam erat volutpat. Ut porta cursus scelerisque. Integer aliquet mi sit amet scelerisque dictum.</p><p> Nulla et fringilla magna, in finibus neque. Pellentesque porta felis a lacus pellentesque, eu faucibus diam egestas.</p> <p>Donec a erat commodo, lobortis justo eu, pellentesque ipsum. Fusce facilisis sem mi, consectetur hendrerit lorem accumsan vitae.</p>",
+      "artwork": [
+        "oats.jpg"
+      ]
+    }
+  ]
+}
